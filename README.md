@@ -28,5 +28,5 @@ graph LR;
 ## Commit messages
 Commit messages are defined with the option **-m** and are very important for navigation, maintenance and tracking the project. Hence it is worth to have a commond message standard to be used by all the teammates working on the project. <br>
 There are many standard that might be followed, but the crucial thing is that everyone follows the same within the team. The message should clearly define the purpose and the reason of change, be short but meaningful.<br>
-***For example***<br>
-**git commit -m "Task 1: Define README structure"
+**For example**<br>
+*git commit -m "Task 1: Define README structure"*
