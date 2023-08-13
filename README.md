@@ -13,3 +13,15 @@ GitHub helps manage remote repos located on local machines that streamlines dist
 3. Basic knowledge of git
 ## Advanced features
 Not known till the date.
+## Git: status of files
+There are several possible statuses of a file in git: <br>
+- Untracked
+- Modified 
+- Tracked
+- Staged
+The file goes from one status to another and this is pre-defined status flow in git: <br>
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git committed"     --> tracked/comitted;
+```
